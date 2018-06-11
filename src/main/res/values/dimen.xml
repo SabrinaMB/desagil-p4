@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizontal_margin">12dp</dimen>
+    <dimen name="margem_horizontal">12dp</dimen>
+    <dimen name="tamanho_img">12dp</dimen>
+    <dimen name="tamanho_titulo">12dp</dimen>
+    <dimen name="margem_vertical">12dp</dimen>
+    <dimen name="altura_dots">12dp</dimen>
+    <dimen name="margem_dots">12dp</dimen>
+    <dimen name="tutorial">12dp</dimen>
+</resources>

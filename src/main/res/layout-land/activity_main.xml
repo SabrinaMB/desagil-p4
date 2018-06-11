@@ -1,0 +1,79 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity"
+    android:background="@color/fundo">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/horizontal_margin"
+        android:layout_marginTop="19dp"
+        android:alpha="0.2"
+        android:src="@mipmap/logo" />
+
+
+    <EditText
+        android:id="@+id/text_nome"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:focusable="true"
+        android:fontFamily="@font/robotomedium"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/blue"
+        android:textColorHint="@color/white" />
+
+
+    <EditText
+        android:id="@+id/text_senha"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text_nome"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:fontFamily="@font/robotomedium"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="111dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:fontFamily="@font/robotomedium"
+        android:text="login" />
+
+    <Button
+        android:id="@+id/button_anon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="55dp"
+        android:backgroundTint="#0000"
+        android:drawableTint="#0000"
+        android:text="Ainda não tem uma conta?  Faca login anônimo aqui."
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

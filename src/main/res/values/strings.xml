@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IdeasFarmPrototype</string>
+    <string name="tutorial1">O que está escrito na primera pagina</string>
+    <string name="tutorial2">O que está escrito na segunda pagina</string>
+    <string name="tutorial3">O que está escrito na terceira pagina</string>
+    <string name="proximo">Próximo</string>
+    <string name="pular">Pular</string>
+    <string name="start">Entendi</string>
+</resources>
